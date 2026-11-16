@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Meta Ads History</title>
+<style>
+  :root{
+    --ink:#1F2933; --soft:#5C6B77; --accent:#0B6E6E;
+    --line:#D8DEE3; --bg:#F4F6F7; --card:#FFFFFF;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--ink);
+    font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    padding:32px 16px 56px;
+  }
+  .wrap{max-width:860px;margin:0 auto}
+  header{border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:24px}
+  h1{font-size:26px;line-height:1.2;margin:0 0 8px;font-weight:600;letter-spacing:-.01em}
+  .sub{color:var(--soft);font-size:15px;margin:0}
+  .row{display:flex;gap:12px;flex-wrap:wrap;margin:0 0 24px}
+  a.btn{
+    display:inline-block;text-decoration:none;font-size:15px;font-weight:500;
+    padding:11px 20px;border-radius:8px;border:1px solid var(--accent);
+  }
+  a.primary{background:var(--accent);color:#fff}
+  a.ghost{background:transparent;color:var(--accent)}
+  .viewer{
+    background:var(--card);border:1px solid var(--line);border-radius:10px;
+    overflow:hidden;height:78vh;min-height:460px;
+  }
+  .viewer object,.viewer iframe{width:100%;height:100%;border:0;display:block}
+  .fallback{padding:28px;color:var(--soft);font-size:15px}
+  footer{margin-top:28px;color:var(--soft);font-size:13px;line-height:1.6}
+  @media (max-width:600px){
+    body{padding:22px 14px 44px}
+    h1{font-size:22px}
+    .viewer{height:62vh;min-height:360px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Engenious University &mdash; Meta Ads History</h1>
+    <p class="sub">Archived record of both ad accounts: spend, results and day-by-day delivery.</p>
+  </header>
+
+  <div class="row">
+    <a class="btn primary" href="report.pdf" download="Engenious-Meta-Ads-History.pdf">Download PDF</a>
+    <a class="btn ghost" href="report.pdf" target="_blank" rel="noopener">Open in new tab</a>
+  </div>
+
+  <div class="viewer">
+    <object data="report.pdf" type="application/pdf">
+      <div class="fallback">
+        Your browser can&rsquo;t display the PDF inline.
+        <a href="report.pdf">Open it here</a> instead.
+      </div>
+    </object>
+  </div>
+
+  <footer>
+    Private link &mdash; not indexed and not listed anywhere. Please don&rsquo;t share it further.
+  </footer>
+</div>
+</body>
+</html>
